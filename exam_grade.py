@@ -45,7 +45,7 @@ for num in range(1,101):
         score_next = 'I' + str(row + 1)
         if ws2[score_next].value == None:
             break
-        if float(ws2[score_next].value) > float(ws2[score].value):#下一位分數較大
+        if float(ws2[score_next].value) > float(ws2[score].value):#泡沫排序
             str_before = ''
             str_after = ''
             for col in range(1,len(ws_read_col)+1):
