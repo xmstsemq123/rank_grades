@@ -4,7 +4,7 @@ from openpyxl.styles import Font
 from openpyxl.styles import PatternFill
 
 #setting parameter
-ws_row_count = 2460 + 1 //名單上總人數
+ws_row_count = 2460 + 1 #名單上總人數
 ws_read_col = ['','A','B','C','D','F','H','J','L']
 
 #load excel files
